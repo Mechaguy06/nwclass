@@ -8,7 +8,8 @@ def NameManipulation():
         print("3. Add another name")
         print("4. Count total characters")
         print("5. Reverse your name")
-        print("6. Back to main menu")
+        print("6. Show current name")
+        print("7. Back to main menu")
         print("===============================================")
 
         choice = input("Enter your choice: ")
@@ -26,6 +27,8 @@ def NameManipulation():
         elif choice == '5':
             print(f"Reversed name: {name[::-1]}")
         elif choice == '6':
+            print(f"Your current name is: {name}")
+        elif choice == '7':
             break
         else:
             print("Invalid choice!")
